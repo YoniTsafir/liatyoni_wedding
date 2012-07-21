@@ -16,8 +16,17 @@
             *{margin:0;padding:0;}
             html{overflow:hidden;}
             #wufoo{position:absolute;width:100%;height:100%;}
-            #disclaimer{background:#336699;color:white;text-align:center;}
-            body{margin-bottom:-17px;}
+            #disclaimer{background:#336699;color:white;text-align:center;vertical-align:middle;}
+            #calendar {
+                background:#ccffff;
+                color:black;
+                margin-left:auto;
+                margin-right:auto;
+                border-radius:20px;
+                border-style:solid;
+                border-color:#6699cc;  
+            }
+            body{margin-bottom:-17px;text-align:center;font-family:"Lucida Grande", Tahoma, Arial, Verdana, sans-serif;}
             iframe{height:100%;width:100%;border:none;}
 
         </style>
@@ -27,8 +36,19 @@
     <body>
         <div id="disclaimer" dir="rtl">
             <img src="static/images/temp_logo.png"><br>
-            <a href="http://www.google.com/calendar/event?action=TEMPLATE&text=%D7%94%D7%97%D7%AA%D7%95%D7%A0%D7%94%20%D7%A9%D7%9C%20%D7%9C%D7%99%D7%90%D7%AA%20%D7%95%D7%99%D7%95%D7%A0%D7%99&dates=20120912T163000Z/20120913T000000Z&details=&location=%D7%A2%D7%93%D7%9F%20%D7%A2%D7%9C%20%D7%94%D7%9E%D7%99%D7%9D%20(%D7%A7%D7%99%D7%91%D7%95%D7%A5%20%D7%A0%D7%99%D7%A8%20%D7%90%D7%9C%D7%99%D7%94%D7%95)&trp=false&sprop=www.liatyoni.com&sprop=name:" target="_blank"><img src="/static/images/google-calendar.png" border=0></a>
-            <a href="/static/liatyoni.ics"><img src="/static/images/iCal.png"></a><br>
+            <table id="calendar">
+                <tr>
+                    <td>
+                        הוסיפו לקלנדר:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </td>
+                    <td>
+                        <a href="http://www.google.com/calendar/event?action=TEMPLATE&text=%D7%94%D7%97%D7%AA%D7%95%D7%A0%D7%94%20%D7%A9%D7%9C%20%D7%9C%D7%99%D7%90%D7%AA%20%D7%95%D7%99%D7%95%D7%A0%D7%99&dates=20120912T163000Z/20120913T000000Z&details=&location=%D7%A2%D7%93%D7%9F%20%D7%A2%D7%9C%20%D7%94%D7%9E%D7%99%D7%9D%20(%D7%A7%D7%99%D7%91%D7%95%D7%A5%20%D7%A0%D7%99%D7%A8%20%D7%90%D7%9C%D7%99%D7%94%D7%95)&trp=false&sprop=www.liatyoni.com&sprop=name:" target="_blank"><img src="/static/images/google-calendar.png" border=0></a>
+                    </td>
+                    <td>
+                        <a href="/static/liatyoni.ics"><img src="/static/images/iCal.png"></a><br>
+                    </td>
+                </tr>
+            </table>
             אנחנו מכינים לכם אתר שווה לאללה, שיכלול שלל פעילויות ואטרקציות לפני/בזמן/ואחרי החתונה.<br>
             בינתיים, אנא אשרו הגעתכם בטופס זה.<br>
         </div>
@@ -37,6 +57,5 @@
                 <a href="http://liatyoni.wufoo.com/forms/z7x3x5/" title="HTML Form">טופס אישורי הגעה</a>
             </iframe>
         </div>
-
     </body>
 </html>
