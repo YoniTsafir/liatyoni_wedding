@@ -14,8 +14,7 @@
         <style>
 
             *{margin:0;padding:0;}
-            html{overflow:hidden;}
-            #wufoo{position:absolute;width:100%;height:100%;}
+            #wufoo{width:100%;height:850px;}
             #disclaimer{background:#336699;color:white;text-align:center;vertical-align:middle;}
             #calendar {
                 background:#ccffff;
@@ -26,7 +25,21 @@
                 border-style:solid;
                 border-color:#6699cc;  
             }
-            body{margin-bottom:-17px;text-align:center;font-family:"Lucida Grande", Tahoma, Arial, Verdana, sans-serif;}
+            body{
+				background: url(images/purty_wood.jpg);
+				text-align:center;
+				font-family:"Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+			}
+			p {
+				letter-spacing: 1px;
+				line-height: 30px;
+				font-size: 20px;
+				font-weight: bold;
+			}
+
+			.pink {
+				color: #ffcc00;
+			}
             iframe{height:100%;width:100%;border:none;}
 
         </style>
@@ -35,23 +48,46 @@
 
     <body>
         <div id="disclaimer" dir="rtl">
-            <img src="static/images/temp_logo.png"><br>
-            <table id="calendar">
-                <tr>
-                    <td>
-                        הוסיפו לקלנדר:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    </td>
-                    <td>
-                        <a href="http://www.google.com/calendar/event?action=TEMPLATE&text=%D7%94%D7%97%D7%AA%D7%95%D7%A0%D7%94%20%D7%A9%D7%9C%20%D7%9C%D7%99%D7%90%D7%AA%20%D7%95%D7%99%D7%95%D7%A0%D7%99&dates=20120912T163000Z/20120913T000000Z&details=&location=%D7%A2%D7%93%D7%9F%20%D7%A2%D7%9C%20%D7%94%D7%9E%D7%99%D7%9D%20(%D7%A7%D7%99%D7%91%D7%95%D7%A5%20%D7%A0%D7%99%D7%A8%20%D7%90%D7%9C%D7%99%D7%94%D7%95)&trp=false&sprop=www.liatyoni.com&sprop=name:" target="_blank"><img src="/static/images/google-calendar.png" border=0></a>
-                    </td>
-                    <td>
-                        <a href="/static/liatyoni.ics"><img src="/static/images/iCal.png"></a><br>
-                    </td>
-                </tr>
-            </table>
-            האתר בבניה, מומלץ לבקר בו שוב בשבועות הקרובים ולראות מה חדש.<br>
-            בינתיים, אנא אשרו הגעתכם בטופס.<br>
-        </div>
+            <h1><img src="/static/images/logo.png"/></h1>
+			<p>אנחנו שמחים להזמניכם</p>
+			<p>לחגוג ולהתרגש עמנו ביום נישואינו,</p>
+			<p>יום ד', כ"ה באלול התשע"ב</p>
+			<p class="pink">12.9.2012</p>
+			<p>ב"עדן על המים", קיבוץ ניר אליהו</p>
+
+			<p>&nbsp;</p>
+			<p>19:30 - קבלת פנים</p>
+			<p>20:15 - חופה וקידושין</p>
+			<p>&nbsp;</p>
+
+			<p>נשמח לראותכם</p>
+
+			<div style="width: 600px; display: block; margin: 0 auto">
+				<div style="width: 300px; display: inline-block; text-align: center; float: left">
+					<p class="pink">הורי הכלה</p>
+					<p>רעיה ואילן</p>
+					<p>קורן</p>
+				</div>
+				<div style="width: 300px; display: inline-block; text-align: center; float: left">
+					<p class="pink">הורי החתן</p>
+					<p>יעל וטוביה</p>
+					<p>צפיר</p>
+				</div>
+			</div>
+			<div style="clear: both"></div>
+
+			<p style="margin-top: 20px">הוסיפו ל Calendar</p>
+
+			<a href="http://www.google.com/calendar/event?action=TEMPLATE&text=%D7%94%D7%97%D7%AA%D7%95%D7%A0%D7%94%20%D7%A9%D7%9C%20%D7%9C%D7%99%D7%90%D7%AA%20%D7%95%D7%99%D7%95%D7%A0%D7%99&dates=20120912T163000Z/20120913T000000Z&details=&location=%D7%A2%D7%93%D7%9F%20%D7%A2%D7%9C%20%D7%94%D7%9E%D7%99%D7%9D%20(%D7%A7%D7%99%D7%91%D7%95%D7%A5%20%D7%A0%D7%99%D7%A8%20%D7%90%D7%9C%D7%99%D7%94%D7%95)&trp=false&sprop=www.liatyoni.com&sprop=name:" target="_blank">
+				<img src="/static/images/google-calendar.png" border=0 style="height: 64px"></a>
+			<a href="/static/liatyoni.ics"><img src="/static/images/iCal.png" style="height: 64px"></a><br>
+			<p style="margin-top: 10px">מפת הגעה</p>
+
+			<img src="http://maps.googleapis.com/maps/api/staticmap?center=Brooklyn+Bridge,New+York,NY&zoom=13&size=600x300&maptype=roadmap&markers=color:blue%7Clabel:Wedding%7C40.702147,-74.015794&sensor=false">
+
+
+		</div>
+
         <div id="wufoo">
             <iframe title="טופס אישורי הגעה" frameborder="0" src="http://liatyoni.wufoo.com/forms/z7x3x5/">
                 <a href="http://liatyoni.wufoo.com/forms/z7x3x5/" title="HTML Form">טופס אישורי הגעה</a>
