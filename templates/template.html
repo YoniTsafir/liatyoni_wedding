@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : Valentine
+Description: A two-column, fixed-width template suitable for business sites and blogs.
+Version    : 1.0
+Released   : 20080116
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>{% block title %}{% endblock %}</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="/static/css/style.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+<div id="header">
+	<div id="logo">
+        <h1><a href="#"><img src="/static/images/logo.png"></a></h1>
+		<h2>12.9.12, עדן על המים</h2>
+	</div>
+	<div id="menu">
+		<ul>
+			<li class="first"><a href="/rsvp" accesskey="1" title="">אשרו הגעה</a></li>
+			<li><a href="/pics" accesskey="2" title="">תמונות (WedPics)</a></li>
+			<li><a href="/map" accesskey="3" title="">מפת הגעה</a></li>
+			<li><a href="/fbevent" accesskey="4" title="">איוונט בפייסבוק (שמרו על קשר)</a></li>
+			<li><a href="/tremps" accesskey="5" title="">סידור טרמפים</a></li>
+            <li><a href="/calendar" accesskey="6" title="">הוסיפו לקלנדר</a></li>
+		</ul>
+	</div>
+</div>
+<hr />
+<!-- start page -->
+<div id="page">
+	<!-- start content -->
+	<div id="content">
+{% block content %}
+{% endblock %}
+	</div>
+	<!-- end content -->
+</div>
+<!-- end page -->
+<div id="footer">
+	<p class="legal"></p>
+	<p class="credit">האתר נבנה ע"י יוני צפיר, תודה לרון רייטר על ייעוץ ועזרה, מבוסס על טמפלייט מ-<a href="http://www.freecsstemplates.org">FCT</a></p>
+</div>
+</body>
+</html>

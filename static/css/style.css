@@ -1,0 +1,363 @@
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+body {
+	background: #FFDBE1 url(/static/images/img01.jpg) repeat-x top right;
+    font-family:"Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+	font-size: 13px;
+	color: #EF7283;
+	margin: 0px;
+	padding: 0px;
+    direction: rtl;
+}
+
+input, textarea {
+	width: 220px;
+	background: #FFFFFF url(/static/images/img04.gif) repeat-x;
+	border-top: 1px solid #A3A3A3;
+	border-left: 1px solid #E5E5E5;
+	border-bottom: 1px solid #FFFFFF;
+	border-right: 1px solid #D6D6D6;
+	font: normal 1em/normal "Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+	color: #6E6E6E;
+}
+
+h1, h2, h3 {
+	color: #F62D47;
+	letter-spacing: -1px;
+}
+
+h1, h1 a, h2, h2 a {
+	text-decoration: none;
+}
+
+h1 a:hover, h2 a:hover {
+	text-decoration: underline;
+}
+
+h1 {
+	font-size: 38px;
+}
+
+h2 {
+	font-size: 28px;
+	font-weight: normal;
+}
+
+h3 {
+	font-size: 16px;
+}
+
+p, ul, ol {
+	margin-top: 1.5em;
+	line-height: 190%;
+}
+
+ul, ol {
+	margin-right: 3em;
+}
+
+blockquote {
+	margin-right: 3em;
+	margin-left: 3em;
+}
+
+a {
+	color: #F62D47;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #F62D47;
+}
+
+a img {
+	border: none;
+}
+
+img.left {
+	float: right;
+	margin-left: 20px;
+}
+
+img.right {
+	float: left;
+	margin-left: 20px;
+}
+
+hr {
+	display: none;
+}
+
+#header {
+	width: 870px;
+	height: 206px;
+	margin: 0 auto;
+	background: url(/static/images/img02.jpg) no-repeat top right;
+}
+
+/* Logo */
+
+#logo {
+	width: 870px;
+	height: 196px;
+	margin: 0 auto;
+	background: url(/static/images/img02.jpg) no-repeat right top;
+}
+
+#logo h1, #logo h2 {
+	margin: 0;
+	padding: 0;
+	text-transform: lowercase;
+}
+
+#logo h1 {
+	padding: 50px 195px 0 5px;
+	font-size: 48px;
+	color: #F74B61;
+}
+
+#logo h2 {
+	padding: 0px 198px 0 0;
+	text-transform: uppercase;
+	font-size: 32px;
+	font-weight: bold;
+	color: #FA8899;
+}
+
+#logo p {
+	clear: right;
+	margin: 0;
+	padding: 0 20px 0 0;
+	line-height: normal;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #FA8899;
+}
+
+#logo a {
+	color: #F74B61;
+}
+
+/* Header */
+
+#header {
+	width: 870px;
+	margin: 0 auto;
+	background: url(/static/images/img02.gif) no-repeat top right;
+}
+
+#menu {
+	height: 60px;
+	width: 870px;
+	padding-right: 20px;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	float: right;
+}
+
+#menu a {
+	display: block;
+	float: right;
+	height: 30px;
+	padding: 20px 18px 15px 30px;
+	background: url(/static/images/img03.jpg) no-repeat right 40%;
+	margin-left: 1px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 13px;
+	color: #FFFFFF;
+}
+
+#menu a:hover {
+	color: #F74B61;
+}
+
+#menu .current_page_item a {
+	color: #FFFFFF;
+}
+
+/* Banner */
+
+#banner {
+	width: 870px;
+	margin: 0 auto;
+	padding: 8px 0;
+}
+
+/* Page */
+
+#page {
+	width: 900px;
+	margin: 0 auto;
+	padding: 45px 25px 0 35px;
+}
+
+/* Content */
+
+#content {
+	float: right;
+	width: 869px;
+	padding-top: 20px;
+    padding-right: 20px;
+}
+
+.post {
+	background: url(/static/images/img08.jpg) repeat-y right top;
+}
+
+.post .title {
+	margin: 0;
+	padding: 10px 50px 10px 20px;
+	background: #F74B61 url(/static/images/img05.jpg) no-repeat right top;
+	border-bottom: 1px dotted #FFC1CA;
+}
+
+.post h1.title {
+	padding: 5px 50px 0 0;
+	background: #FECBD3 url(/static/images/img05.jpg) no-repeat right top;
+	height: 40px;
+	font-size: 2.4em;
+	text-transform: lowercase;
+}
+
+.post .title a:hover {
+	text-decoration: none;
+}
+
+.post .entry {
+	margin: 0px;
+	padding: 20px 20px;
+}
+
+.post .meta {
+	height: 35px;
+	margin: 15px 0 20px 0;
+	padding: 14px 20px 0 0;
+	background: #F74B61 url(/static/images/img04.jpg) no-repeat;
+	line-height: normal;
+	border-top: 1px dotted #FFC1CA;
+}
+
+
+/* Footer */
+
+#footer {
+	clear: both;
+	width: 780px;
+	height: 50px;
+	margin: 0 auto;
+	padding: 35px 45px;
+	border-top: 5px solid #FA8597;
+}
+
+#footer p {
+	margin: 0;
+	line-height: normal;
+	color: #FA8597;
+}
+
+#footer a {
+	color: #F62D47;
+}
+
+#footer .legal {
+	float: right;
+}
+
+#footer .credit {
+	float: left;
+    font-size: 10px;
+}
+
+/* Wufoo Form */
+
+span.req {
+    display:inline;
+    float:none;
+    color:red !important;
+    font-weight:bold;
+    margin:0;
+    padding:0
+}
+
+form ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+
+form li {
+    margin:0;
+    padding:6px 1% 9px 1%;
+    clear:both;
+    background-color:transparent;
+    position:relative;
+    -webkit-transition:background-color 350ms ease-out;
+    -moz-transition:background-color 350ms ease-out;
+    -o-transition:background-color 350ms ease-out;
+    transition:background-color 350ms ease-out
+}
+
+.hide {
+    display:none!important;
+}
+
+label.desc,legend.desc {
+    font-size:95%;
+    font-weight:700;
+    color:#222;
+    line-height:150%;
+    border:none;
+    display:block;
+    white-space:normal;
+    width:100%;
+    margin:0;
+    padding:0 0 3px;
+}
+
+input.checkbox,input.radio {
+    display:block;
+    width:13px;
+    height:13px;
+    margin:4px 0;
+    padding:0;
+}
+
+label.choice {
+    display:block;
+    cursor:pointer;
+    font-size:100%;
+    line-height:150%;
+    color:#222;
+    width:88%;
+    margin:-22px 23px 0 0;
+    padding:0 0 2px;
+}
+
+.safari label.choice {
+    margin-top:-16px;
+}
+
+.rtl label.choice {
+    margin:-17px 23px 0 0;
+}
+
+fieldset {
+    display:block;
+    border:none;
+    margin:0;
+    padding:0;
+}
+

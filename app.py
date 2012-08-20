@@ -6,7 +6,31 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return render_template("index.html")
+    return rsvp()
+
+@app.route('/rsvp')
+def rsvp():
+    return render_template("rsvp.html")
+
+@app.route('/pics')
+def pics():
+    return render_template("pics.html")
+
+@app.route('/map')
+def map():
+    return render_template("map.html")
+
+@app.route('/fbevent')
+def fbevent():
+    return render_template("fbevent.html")
+
+@app.route('/tremps')
+def tremps():
+    return render_template("tremps.html")
+
+@app.route('/calendar')
+def calendar():
+    return render_template("calendar.html")
 
 @app.route('/favicon.ico')
 def favicon():
